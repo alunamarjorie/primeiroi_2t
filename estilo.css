@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background: hsl(152, 77%, 53%);
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,7 @@ h1 {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: yellow;
+  background: hwb(300 43% 12%);
   left: 205px;
   bottom:0;
 }
@@ -26,7 +26,7 @@ h1 {
    position: absolute;
    width: 100%;
    height: 45px;
-   background:rgb(161, 246, 252);
+   background:#b882f5;
    font-family: 'Courier New', Courier, monospace;
    top: 0;
    left: 0;
@@ -51,10 +51,10 @@ li a:hover {
   background: rgb(139, 105, 201);
   color: azure;
 }
-#abelha {
+#frutas {
    width: 15%;
 }
-.caixaAbelha {
+.caixafrutas {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -69,7 +69,7 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
-.caixaAbelha2 {
+.caixafrutas2 {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -85,12 +85,27 @@ li a:hover {
   justify-content: end;
 }
 .rodape {
+   position: absolute;
+   width: 100%;
+   height: 35px;
+   background: black;
+   color: blanchedalmond;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
   position: absolute;
-  width: 100%;
-  height: 35px;
-  background-color: black;
-  color: aliceblue;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
+  top: 45px;
+}
+.frutas {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 80px;
+   z-index: 999;
+   background: hsl(73, 100%, 66%);
+}
+#frutas {
+  width: 30%;
 }
